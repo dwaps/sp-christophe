@@ -1,0 +1,32 @@
+@import "./header.css";
+@import "./nav.css";
+@import "./section.css";
+@import "./footer.css";
+
+:root {
+  --color-primary: #444;
+  --color-bg: rgb(224, 186, 81);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e4d4d4;
+  font-family: sans-serif;
+  color: var(--color-primary);
+  line-height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+}
+
+a:hover {
+	color: #aaa;
+}
